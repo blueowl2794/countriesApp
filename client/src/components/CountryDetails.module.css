@@ -1,0 +1,61 @@
+.detailsContainer{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;/*aca estamos dando direccion para cuando la pag se ponga mas pequena pasara a columna*/
+    /* background-color: #000; */
+    /* height:105.5vh; */
+    /* position: relative; */
+    /* top: -18px; */
+}
+.colum{
+    max-width: 500px;
+    margin: 10px;
+    height:auto;
+    height:80%;
+    background-color:rgba(0, 0, 0, 0.363);
+    color: #fff7f7;
+    font-family: Cambria;
+    font-size: 20px;
+    padding:15px;
+    border-radius: 10px;
+}
+.countryimg{
+    border-radius: 10px;
+    /* height:400px;
+    width:400px; */
+}
+.countryDetails{
+    font-size: 1.2rem;
+}
+.container{
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.837);
+    border-radius: 10px;
+    background-image: url('../assets/img2.jpg');
+    background-size:cover; 
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.container > p {
+    color: #000;
+}
+.dContainer{
+    /* display: flex; */
+    border: 1px solid rgb(19, 18, 18);
+    border-radius: 10px;
+    padding:5px;
+    margin:10px;
+    background-color: rgba(0, 0, 0, 0.515);
+}
+.interno  {
+    padding:6px;
+    /* width:px; */
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #fff; */
+}
+
+/* .first{
+    margin-top: 0;
+} */

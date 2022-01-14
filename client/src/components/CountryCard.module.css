@@ -1,0 +1,44 @@
+.country{
+    list-style: none;
+    font-size: 1rem;
+    font-family:'Candara';
+    font-size: 15px;
+    text-align: center;
+    margin: 15px;
+    /* padding: 10px; */
+    border: 1px  solid rgba(22, 20, 20, 0.152);
+    background-color:rgba(0, 0, 0, 0.72);
+    border-top:none;
+    /* border-bottom:none; */
+    border-radius: 15px;
+    height:26rem;
+}
+
+.country:hover{
+    /* background-color:#f5f4b5;
+    color:#000;
+    border-radius: 10px;
+    opacity: 0.6; */
+    /* border: 1px solid #fff; */
+    background-color: rgba(0, 0, 0, 0.481);
+    
+    border-radius: 15px;
+    opacity: 0.9;
+    margin: 15px;   
+}
+
+a {
+    color: rgb(255, 243, 243);
+    text-decoration: none;
+}
+
+.imgCard{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* border-radius: 1500px; */
+    margin: 15px;
+    background-color:rgb(0, 0, 0);
+    width: 91%;
+   
+    /* background-image :url(image); */
+}

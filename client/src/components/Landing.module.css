@@ -1,0 +1,41 @@
+
+.app{
+    /*posiciono*/
+    top: 68px;
+    bottom:0;
+    
+    left: 0;
+    right: 0;
+    height: 110%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .container{/*aca le estamos dando estilos a lo que esta dentro de la imagen borrosa*/
+    top: 0;
+    width: 30vw;
+    height: 30vh;
+    margin: 25vh 15vw;
+    border-radius: 0.5rem;
+    color: rgba(255, 255, 255, 0.775);
+    font-family: "Candara";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 3px rgb(255, 248, 248);
+    background-color: rgba(255, 255, 255, 0);
+    /* overflow: hidden;//con esta le estamos sacando cualquier informacion que se desborde de nuestro contenedor */
+    /* display:grid; */
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 50vh 20vh; */
+    
+  }
+
+.app{/*aca le estamos dando estilos a lo que esta dentro de la imagen borrosa*/
+    /*de esta manera le damos estilos a dos clases que comparten los mismos comportamientos*/
+   background-image: url("../assets/landing.jpg"); /*fonde de img*/
+   background-repeat: no-repeat;/*para que no se repita la imagen al cambiar el tamaño*/
+   background-size: cover; /*para que tome el tamaño del contenedor*/
+   position: absolute; 
+   
+ }

@@ -1,0 +1,151 @@
+.div1{
+    /* width: 100%; */
+    
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.344);
+    padding:5px;
+    position: relative;
+    top: -18px;
+}
+.contein{
+    /* background-color:rgba(0, 0, 0, 0.419); */
+    /* background-image:url('../assets/im2.jpg');
+    background-repeat: no-repeat;/*para que no se repita la imagen al cambiar el tamaño*/
+    /* background-size: cover; para que tome el tamaño del contenedor */ 
+    width: 100%;
+    /* position: absolute;  */
+    /* position: relative;
+    top: -19px;
+    height:160%; */
+    align-items: center;
+}
+.erik, .country, .asia, .antarctic, .africa, .europe, .america{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 370px);
+    gap: 10px;
+    padding:50px;
+    margin: 55px;
+    justify-content: center;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    /* background-color: rgba(0, 0, 0, 0.378); */
+    height:100%;
+}
+.country{
+    background-image:url('../assets/img2.jpg');
+}
+.erik{
+    background-image: url("../assets/Oceania.jpg");
+}
+.asia{
+    background-image: url("../assets/Asia.jpg");
+}
+.antarctic{
+    background-image: url("../assets/Antarctica.jpg");
+}
+.africa{
+    background-image: url("../assets/Africa.jpg");
+}
+.europe{
+    background-image: url("../assets/Europe.jpg");
+}
+.america{
+    background-image: url("../assets/America.jpg");
+}
+
+.order{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 235, 204);
+    font-size: 15px;
+    font-family: Candara;
+    border-radius:3px;
+    margin-right: 10px;
+    width: 100px;
+    padding: 5px;
+    align-items: center;
+}
+.order1{
+    background-color: rgba(0, 0, 0, 0.597);
+    border: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 235, 204);
+    font-size: 15px;
+    font-family: Candara;
+    border-radius:3px;
+    margin-right: 10px;
+    width: 100px;
+    padding: 5px;
+    align-items: center;
+}
+
+.order > option{
+    background-color:rgba(0, 0, 0, 0.781);
+    border: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 211, 191);
+    font-size: 15px;
+    font-family: Candara;
+    border-radius:3px;
+}
+.order:hover{
+    background-color: rgba(255, 205, 182, 0.419);
+}
+
+.order:focus{
+    outline: none;
+}
+@media( max-height: 1008px)
+{
+    .erik, .country, .asia, .antartica, .africa, .europe, .america{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 430px);
+        gap: 10px;
+        padding:50px;
+        margin: 55px;
+        justify-content: center;
+        border-radius: 1rem;
+        background-repeat: no-repeat;
+        background-size:cover; 
+        /* background-color: rgba(0, 0, 0, 0.378); */
+        height:100%;
+    }
+
+    
+}
+@media (max-width: 1900px ){
+    .erik, .country, .asia, .antartica, .africa, .europe, .america{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 430px);
+        gap: 10px;
+        padding:50px;
+        margin: 55px;
+        justify-content: center;
+        border-radius: 1rem;
+        background-repeat: no-repeat;
+        background-size:cover; 
+        /* background-color: rgba(0, 0, 0, 0.378); */
+        height:100%;
+    }
+
+    
+}
+@media (max-width: 600px){
+    .erik, .country, .asia, .antartica, .africa, .europe, .america{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 430px);
+        gap: 10px;
+        padding:50px;
+        margin: 55px;
+        justify-content: center;
+        border-radius: 1rem;
+        background-repeat: no-repeat;
+        background-size:cover; 
+        /* background-color: rgba(0, 0, 0, 0.378); */
+        height:100%;
+        width:50%;
+    }
+
+    
+}

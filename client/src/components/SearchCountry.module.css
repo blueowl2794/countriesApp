@@ -1,0 +1,32 @@
+input{
+    background-color:transparent;
+    border: 1px solid #ffffff;
+    color: rgb(255, 229, 182);
+    font-size: 15px;
+    border-radius:0.3rem;
+    font-family: Candara;
+}
+.but:hover{
+    background-color:rgba(116, 181, 255, 0.541);
+    color: rgb(253, 253, 253);
+}
+input:focus{
+outline: none;
+}
+.div{
+    
+    width:98%;
+    margin: 2px;
+    
+    
+    
+}
+
+.div > a:hover{
+    
+    color:rgba(255, 129, 129, 0.541);
+    border-radius:0.3rem;
+    /* margin: 10px;
+    padding: 10px; */
+    
+}
